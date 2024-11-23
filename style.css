@@ -51,6 +51,7 @@ header {
   background-position: center;
   background-attachment: fixed;
   background-color: none;
+  padding-left: 50px;
 }
 .main h2 {
   color: #fff;
@@ -126,6 +127,7 @@ header {
   margin: 15px;
   transition: 0.7s ease;
   color: #fff;
+  text-align: center;
 }
 
 .card:hover {
@@ -143,8 +145,8 @@ header {
 }
 
 .project-card {
-  background-color: greenyellow;
-  border: 1px solid greenyellow;
+  background-color: black !important;
+  border: 1px solid greenyellow !important;
   min-height: 14em;
   width: 23em;
   overflow: hidden;
@@ -167,22 +169,11 @@ header {
 
 .project-info {
   padding: 1em;
-  color: #fff;
+  color: #fff !important;
 }
 
 .projects .content {
   margin-top: 30px;
-}
-
-.project-card {
-  background-color: #fff;
-  border: 1px solid #fff;
-  min-height: 14em;
-  width: 23em;
-  overflow: hidden;
-  border-radius: 10px;
-  margin: 20px;
-  transition: 0.7s ease;
 }
 
 .project-card:hover {
@@ -202,8 +193,8 @@ header {
 }
 
 .project-category {
-  font-size: 0.8em;
-  color: #000;
+  font-size: 0.9em;
+  color: white;
 }
 
 .project-title {
@@ -216,11 +207,11 @@ header {
 
 .more-details {
   text-decoration: none;
-  color: #3a6cf4;
+  color: greenyellow;
 }
 
 .more-details:hover {
-  color: #601cfc;
+  color: green;
 }
 
 .contact .icon {
@@ -229,10 +220,12 @@ header {
 
 .contact .info h3 {
   color: #000;
+  align-items: center !important;
 }
 
 .contact .info p {
   font-size: 1.5em;
+  align-items: center !important;
 }
 
 .footer {
@@ -249,7 +242,7 @@ header {
 }
 
 .footer-title span {
-  color: #3a6cf4;
+  color: greenyellow;
 }
 
 .footer .social-icons a {
